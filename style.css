@@ -1,0 +1,56 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #0a1014;
+    font-family: Arial, sans-serif;
+}
+
+main{
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.content--search{}
+
+
+
+.content--search--brand{
+    width: 100px;
+    height: 30px;
+    padding: 10px;
+}
+
+.content--search--input{
+    width: 100%;
+    height: 40px;
+    border-radius: 3px;
+    color: #a3afb8;
+    border: none;
+}
+
+/*inicio bloco de filmes */
+.content--movies{
+    height: 400px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+.content--movies--empty{
+    margin: 0 auto;
+    
+}
+
+.content--movies--offer{
+  color: #dededf;  
+  text-align: center;
+}
+
+.content--movies--desc{
+    color: #53616b;
+    text-align: center;
+}
+}
